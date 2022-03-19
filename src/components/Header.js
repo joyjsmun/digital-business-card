@@ -4,13 +4,14 @@ import styled from "styled-components";
 
 const Main = styled.div`
     width: 400px;
-    height: 400px;
+    
     
 
 `
 
 const Img = styled.img`
-
+    width: inherit;
+    height: inherit;
   
 `
 
