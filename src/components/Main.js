@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
-const Main = styled.div``
+const MainSection = styled.div`
+display: flex;
+flex-direction: column;
+width: 317px;
+height: 400px;
+`
 
-const Name = styled.h1``
+const Name = styled.h1`
+
+`
 
 const Title = styled.h3``
 
@@ -25,23 +32,23 @@ const InterestTitle = styled.h3``
 
 function Main() {
     return (
-        <Main>
-            <Name></Name>
-            <Title></Title>
-            <Field></Field>
+        <MainSection>
+            <Name>Joy Mun</Name>
+            <Title>Software Engineer</Title>
+            <Field>Web3 & Blockchain</Field>
             <Buttons>
-                <Email></Email>
-                <Linkedin></Linkedin>
+                <Email>Email</Email>
+                <Linkedin>Linkedin</Linkedin>
             </Buttons>
             <About>
-                <AboutTitle></AboutTitle>
-                <p></p>
+                <AboutTitle>About</AboutTitle>
+                <p>I am a software engineer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
             </About>
             <Interest>
-                <InterestTitle></InterestTitle>
-                <p></p>
+                <InterestTitle>Interests</InterestTitle>
+                <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
             </Interest>
-        </Main>
+        </MainSection>
     )
 }
 
