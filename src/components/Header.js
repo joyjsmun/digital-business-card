@@ -3,10 +3,9 @@ import styled from "styled-components";
 
 
 const Main = styled.div`
-    width: 400px;
-    
-    
-
+    width: 317px;
+    height: 370px;
+ 
 `
 
 const Img = styled.img`
