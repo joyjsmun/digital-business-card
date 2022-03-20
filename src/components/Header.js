@@ -12,6 +12,8 @@ const Main = styled.div`
 const Img = styled.img`
     width: inherit;
     height: inherit;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
   
 `
 
