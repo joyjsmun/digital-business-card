@@ -5,24 +5,27 @@ const Wrapper = styled.div`
     background: #161619;
     border-radius: 0px 0px 10px 10px;
     width: 100%;
-`
-
-const List = styled.ul`
     display: flex;
-    
+    padding: 19.5px 72.5px;
 `
 
-const Icon = styled.li``
+const Icon = styled.div`
+    width: 25px;
+    height: 25px;
+    background: #918E9B;
+    margin-right:23px;
+    &:last-child{
+        margin-right: 0;
+    }
+`
 
 function Footer() {
     return (
         <Wrapper>
-            <List>
                 <Icon></Icon>
                 <Icon></Icon>
                 <Icon></Icon>
                 <Icon></Icon>
-            </List>
         </Wrapper>
     )
 }
