@@ -54,7 +54,7 @@ font-weight: 500;
 display: flex;
 justify-content: center;
 align-items: center;
-;
+margin-right: 17px;
 `
 
 const Linkedin = styled.div`
