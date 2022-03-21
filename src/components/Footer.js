@@ -17,7 +17,8 @@ const Icon = styled.div`
     &:last-child{
         margin-right: 0;
     }
-`
+    border-radius: 2px;
+    `
 
 function Footer() {
     return (
