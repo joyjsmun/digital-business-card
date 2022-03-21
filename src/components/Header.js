@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Main = styled.div`
     width: 317px;
-    height: 370px;
+    height: 356px;
  
 `
 

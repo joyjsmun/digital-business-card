@@ -43,26 +43,32 @@ text-align: center;
 margin: 0 auto;
 `
 
-const Email = styled.li`
+const Email = styled.div`
 width: 115px;
 height: 34px;
 background: #FFFFFF;
 color: #374151;
 border-radius: 6px;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-margin: 0 auto;
-margin-top: auto;
+font-weight: 500;
+display: flex;
+justify-content: center;
+align-items: center;
 ;
 `
 
-const Linkedin = styled.li`
+const Linkedin = styled.div`
 width: 115px;
 height: 34px;
 background: #5093E2;
 color: #374151;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 6px;
+font-weight: 500;
 margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
 const About = styled.div`
