@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import emailIcon from "../images/email.png"
 
 const MainSection = styled.div`
 display: flex;
@@ -71,6 +72,12 @@ justify-content: center;
 align-items: center;
 `
 
+const EmailIcon = styled.div`
+    width: 25px;
+    height: 25px;
+    background-image: url(${emailIcon});
+`
+
 const About = styled.div`
 padding-bottom: 27px;
 
@@ -101,7 +108,7 @@ function Main() {
             <Title>Software Engineer</Title>
             <Field>Web3 & Blockchain</Field>
             <Buttons>
-                <Email>Email</Email>
+                <Email><EmailIcon/>Email</Email>
                 <Linkedin>Linkedin</Linkedin>
             </Buttons>
             <About>
