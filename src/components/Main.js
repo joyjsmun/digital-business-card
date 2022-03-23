@@ -72,9 +72,15 @@ justify-content: center;
 align-items: center;
 `
 
-const EmailIcon = styled.div`
-    width: 25px;
-    height: 25px;
+const LinkedinIcon = styled.img`
+    width: 15px;
+    margin-right: 3px;
+    background-image: url(${emailIcon});
+`
+
+const EmailIcon = styled.img`
+    width: 15px;
+    margin-right: 3px;
     background-image: url(${emailIcon});
 `
 
@@ -108,8 +114,8 @@ function Main() {
             <Title>Software Engineer</Title>
             <Field>Web3 & Blockchain</Field>
             <Buttons>
-                <Email><EmailIcon/>Email</Email>
-                <Linkedin>Linkedin</Linkedin>
+                <Email><EmailIcon src={require('../images/email.png')} />Email</Email>
+                <Linkedin><LinkedinIcon src={require('../images/linkedin.png')} />Linkedin</Linkedin>
             </Buttons>
             <About>
                 <AboutTitle>About</AboutTitle>
