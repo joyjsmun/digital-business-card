@@ -7,12 +7,13 @@ const Wrapper = styled.div`
     width: 100%;
     display: flex;
     padding: 19.5px 72.5px;
+    align-items: center;
+    justify-content: center;
 `
 
 const Icon = styled.div`
     width: 25px;
     height: 25px;
-    background: #918E9B;
     margin-right:23px;
     &:last-child{
         margin-right: 0;
@@ -20,13 +21,19 @@ const Icon = styled.div`
     border-radius: 2px;
     `
 
+const LinkedinIcon = styled.img`
+width: 25px;
+margin-right: 3px;
+
+`
+
 function Footer() {
     return (
         <Wrapper>
-                <Icon></Icon>
-                <Icon></Icon>
-                <Icon></Icon>
-                <Icon></Icon>
+                <Icon><LinkedinIcon src={require('../images/twitter-sign.png')} /></Icon>
+                <Icon><LinkedinIcon src={require('../images/github.png')} /></Icon>
+                <Icon><LinkedinIcon src={require('../images/linkedin-logo.png')} /></Icon>
+
         </Wrapper>
     )
 }
